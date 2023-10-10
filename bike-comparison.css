@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+	
+}
+body{
+    background-color: #016ff9;
+    min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.bgtop{
+	height: 110px;
+	width: 100%;
+	background-color: #0000ab;
+}
+.nav{
+	height: 100px;
+	width: 100%;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2px solid;
+	position: absolute;
+}
+
+
+.nav-item-feature{
+    font-family:Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 24px;
+	color: #016ff9;
+	font-weight: 400;
+	text-decoration: none;
+	margin: 0 0.75em ;
+	text-transform: uppercase;
+	display: inline-block;
+	transition: all 80ms ease-in;
+
+}
+.nav-item-feature:hover{
+	transform: skew(-10deg);
+	background-color: blue;
+	color: white;
+	padding: 38px 14px;
+	font-style:normal;
+}
+.nav-item-book{
+	transform: skew(-10deg);
+	background-color: #0000ab;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	text-decoration: none;
+	padding: 38px 14px;
+}
+.bike-comparison{
+	padding-inline-start: 15px 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	max-width: 960px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 7em;
+	
+}
+
+.bike-panel{
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 25px;
+	transition: scale 500ms;
+	
+}
+.bike-panel:hover{
+	scale: 1.1;
+
+}
+.bike-img{
+	scale: 0.65;
+	border: 1px solid #888;
+	border-radius: 20px;
+	padding: 20px;
+	margin-bottom:none;
+	transition: all 300ms;
+
+}
+.bike-img:hover{
+	scale: 0.7;
+}
+.bike-header{
+	color: #888;
+	font-weight: 700;
+	font-size: 32px;
+	letter-spacing: 1px;
+}
+.bike-features{
+	margin: 30px 0 15px 0;
+	color: #016ff9;
+	
+}
+.bike-features-items{
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-size: 12px;
+	line-height: 10px;
+	padding: 15px 0;
+	border-top: 1px solid #e1f1fe;
+}
+.bike-pricing{
+	color: #016ff9;
+	display: block;
+	font-size: 24px;
+	font-weight: 700;
+}
+.bike-site{
+	border: 1px solid #9dd1ff;
+	border-radius: 10px;
+	color: #348efe;
+	display: inline-block;
+	padding: 15px 35px;
+	margin: 10px 0 25px 0;
+	text-decoration: none;
+	font-size: 20px;
+	transition: background-color 200ms, color 500ms;
+
+}
+.bike-site:hover {
+	background-color: #016ff9;
+	color: white;
+}
