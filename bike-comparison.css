@@ -82,7 +82,7 @@ body{
 	text-decoration: none;
 	margin: 0 0.75em ;
 	text-transform: uppercase;
-
+        display: inline-block;
 	transition: all 80ms ease-in;
 
 }
