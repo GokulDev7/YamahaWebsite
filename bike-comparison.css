@@ -24,8 +24,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	display: flex;
-	flexbox: 1;
+
 	line-height: 1;
 }
 ol, ul {
@@ -52,6 +51,7 @@ body{
     background-color: #016ff9;
     min-height: 100vh;
 	display: flex;
+	flex-grow: 1;
 	flex-direction: column;
     justify-content: space-between;
     align-items: center;
