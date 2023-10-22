@@ -51,7 +51,6 @@ body{
     background-color: #016ff9;
     min-height: 100vh;
 	display: flex;
-	flex-grow: 1;
 	flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -104,6 +103,7 @@ body{
 	padding: 38px 14px;
 }
 .bike-comparison{
+	padding-top: 10px; 
 	padding-inline-start: 15px 25px;
 	display: flex;
 	justify-content: center;
